@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+chroma_db/
+chat_history.db
+data/*
+!data/.gitkeep
+.DS_Store
+*.egg-info/

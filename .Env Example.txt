@@ -1,0 +1,18 @@
+# Free Groq API key — sign up at https://console.groq.com (no credit card needed for free tier)
+# Go to API Keys -> Create API Key, then paste it below.
+GROQ_API_KEY=your-groq-api-key-here
+
+# Model served by Groq. openai/gpt-oss-120b is a strong free-tier-friendly choice for
+# technical Q&A (as of mid-2026, Groq's current recommended flagship open model).
+# For faster/lighter responses, try: openai/gpt-oss-20b
+GROQ_MODEL=openai/gpt-oss-120b
+
+# Embedding model (runs locally via sentence-transformers, downloads once, free)
+EMBEDDING_MODEL=all-MiniLM-L6-v2
+
+# Chunking config
+CHUNK_SIZE=800
+CHUNK_OVERLAP=120
+
+# Retrieval config
+TOP_K=5
